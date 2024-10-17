@@ -4,6 +4,7 @@ from email.message import EmailMessage
 
 PASSWORD = "x y z"
 # Generate an app password using ur gmail account and paste it in the "PASSWORD" variable.
+# Put your own dummy or personal email in the "SENDER" and "RECEIVER" variable
 SENDER = "apptestpy19@gmail.com"
 RECEIVER = "apptestpy19@gmail.com"
 
