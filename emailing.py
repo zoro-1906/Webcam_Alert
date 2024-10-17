@@ -10,7 +10,7 @@ RECEIVER = "apptestpy19@gmail.com"
 def send_email(image_path):
     print("send_email function started")
     email_message = EmailMessage()
-    email_message["Sub"] = "New object entered the frame!"
+    email_message["Subject"] = "New object entered the frame!"
     email_message["From"] = SENDER
     email_message["To"] = RECEIVER
     email_message.set_content("Hey, a person appeared in the camera, you may want to check it.")
