@@ -1,6 +1,8 @@
+# This code creates a 3D NumPy array "a", which represents an image with pixel values,
+# and then writes this array to an image file (img.png) using OpenCV's cv2.imwrite() function.
+
 import numpy
 import cv2
-
 
 a = numpy.array(
 [[[255, 0, 0],
